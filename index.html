@@ -4,17 +4,75 @@
         <title>HTML Checkpoint</title>
     </head>
     <body>
-        <h1>My links</h1>
+      <h1>HTML Checkpoint Project</h1>
+        <h2>My links</h2>
         <ul>
           <li><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element#text_content">HTML Elements</a></li>
           <li><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Inline_elements">HTML Inline Elements</a></li>
         </ul>
-        <h1>My Articles</h1>
+        <h2>My Articles</h2>
         <ul>
           <li><a href="Wizard_article.html">How to be a wizard?</a></li>
           <li><a href="Browsers.html">Different browsers</a></li>
         </ul>
+        <table>
+          <thead>
+              <tr>
+                <th colspan="2"> Pair Programmers</th>
+              </tr>
+            </thead>
+          <thead>
+            <tr>
+              <th>First Name</th>
+              <th>Last Name</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Kayla</td>
+              <td>Swartzlander</td>
+            </tr>
+            <tr>
+              <td>Deepthi</td>
+              <td>Gaddipati</td>
+            </tr>
+          </tbody>
+        </table>  
+        <h2>Contact Form</h2>
+        <form>
+          <label>Name:
+           <input name="submitted-name" autocomplete="name">
+          </label>
+        </form>
         
+        <!-- Form which will send a POST request to the current URL -->
+        <form method="post">
+          <label>Email:
+            <input name="submitted-name" autocomplete="name">
+          </label>
+        </form>
+        
+        <!-- Form with fieldset, legend, and label -->
+        <form method="post">
+          <fieldset>
+            <legend>First Check</legend>
+            <label><input type="checkbox" name="checkbox"> Are you a real person?</label>
+          </fieldset>
+        </form>
+        <form method="post">
+          <fieldset>
+            <legend>Second Check</legend>
+            <label><input type="checkbox" name="checkbox"> Like, for real real?</label>
+          </fieldset>
+        </form>
+        <form method="post">
+          <fieldset>
+            <legend>Final Check</legend>
+            <label><input type="checkbox" name="checkbox"> Are you sure?</label>
+          </fieldset>
+        </form>
+
+
         <footer>
             <p>© Deepthi & Kayla - July, 2021</p>
         </footer>
