@@ -1,0 +1,17 @@
+h1 {
+    background-color: blue; 
+    color: white;
+}
+
+h2 {
+    background-color: tomato;
+    color: whitesmoke;
+}
+
+#name {
+    color: red;
+}
+
+#Email {
+    color: rebeccapurple;
+}
